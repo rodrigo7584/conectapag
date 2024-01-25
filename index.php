@@ -58,6 +58,37 @@
           "Gestão de cobranças"
         ]
       ],
+      "block3" => [
+        "title" => "cel_banking", 
+        "listItems" => [
+          "Cobrança recorrente",
+          "Links de pagamentos",
+          "Gateway de pagamentos",
+          "Conciliação bancária"
+        ]
+      ],
+      "block4" => [
+        "title" => "cel_retail", 
+        "listItems" => [
+          "Corban as a service",
+          "PDV app",
+          "Pix saque e Pix troco",
+        ]
+      ],
+      "block5" => [
+        "title" => "cel_open", 
+        "listItems" => [
+          "Open Keys",
+          "Brick Bank",
+        ]
+      ],
+      "block6" => [
+        "title" => "cel_onboarding", 
+        "listItems" => [
+          "KYC",
+          "Consulta de dados",
+        ]
+      ],
     ];
     foreach ($spotlightBlocks as $block) {
         echo "titulo: " . $block["title"] . "<br>";
