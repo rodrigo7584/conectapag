@@ -36,8 +36,8 @@
           </button>
           <ul>
             <li><a class="menu-item" href="#solutions">Soluções</a></li>
-            <li><a class="menu-item" href="#about">Sobre nós</a></li>
             <li><a class="menu-item" href="#developers">Developers</a></li>
+            <li><a class="menu-item" href="#about">Sobre nós</a></li>
             <li><a class="menu-item" href="#get-in-touch">Contato</a></li>
             <li>
               <a href="#" class="btn btn-gradient">Login</a>

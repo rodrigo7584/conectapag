@@ -46,7 +46,38 @@ button {
 .btn-gradient {
   background: linear-gradient(90deg, var(--color-blue-200), var(--color-blue-300));
 }
-
+.slider {
+  height: 25rem;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.slide-track {
+  display: flex;
+  width: calc(25rem * 10);
+  animation: slider 10s linear infinite;
+}
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * 5));
+  }
+}
+.slide {
+  height: 20rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  padding: 1.5rem;
+}
+.slide img {
+  width: 100%;
+}
 /* 
 @media (max-width: 1400px) {
 }
