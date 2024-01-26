@@ -1,3 +1,55 @@
+.spotlight {
+  padding: 8rem;
+  border-radius: 8rem;
+  background: linear-gradient(90deg, var(--color-blue-400), var(--color-blue-100));
+}
+.spotlight .row {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+}
+.spotlight h2,
+.spotlight h1 {
+  color: var(--color-white);
+}
+.spotlight .list-arrow .slider {
+  height: 25rem;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.spotlight .list-arrow {
+  border: 0.1rem solid var(--color-blue-200);
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 2rem;
+  padding: 3rem 3rem 3rem 10rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.spotlight .list-arrow li {
+  color: var(--color-white);
+  font-size: 1.5rem;
+  font-weight: var(--medium);
+  position: relative;
+  line-height: 1.8rem;
+  min-height: 3.8rem;
+}
+.spotlight .list-arrow li::before {
+  content: '';
+  position: absolute;
+  background-image: url('../img/icon-arrow-up.png');
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  top: 0;
+  left: -7rem;
+  width: 4rem;
+  height: 4rem;
+}
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {
@@ -9,4 +61,4 @@
 @media (max-width: 576px) {
 }
 @media (max-width: 400px) {
-} 
+}

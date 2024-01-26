@@ -100,16 +100,16 @@
           ?>
           <div class="block">
             <img src="./img/icon-block.png" alt="" />
-            <h4><?php echo $block['title']?></h4>
+            <h4 class="title-small"><?php echo $block['title'];?></h4>
             <ul class="dot-list">
               <?php
                 foreach($block['listItems'] as $listItem){
                   echo '<li>' . $listItem . '</li>';
-                  }
-                }
+                  };
               ?>
             </ul>
           </div>
+          <?php } ;?>
         </div>
       </div>
     </div>
@@ -122,7 +122,7 @@
           <h1 class="title">
             Experiência financeira mais integrada aos seus clientes e novos fluxos de receita
           </h1>
-          <a href="btn btn-white">Conheça mais</a>
+          <a href="#" class="btn btn-white">Conheça mais</a>
         </div>
         <div class="col-right">
           <ul class="list-arrow">
@@ -180,21 +180,22 @@
         <div class="col">
           <div class="box-title">
             <h2 class="subtitle">BEM VINDO A CONECTA PAG</h2>
-            <h1>A <span>solução</span> perfeita para o segmento da sua empresa está aqui.</h1>
-            <div class="blocks">
-              <?php 
+            <h1 class="title">A <span>solução</span> perfeita para o segmento da sua empresa está aqui.</h1>
+          </div>
+          <div class="blocks">
+            <?php 
                 foreach ($solutionBlocks as $block){
                   echo "<div class='block'>";
                   echo "<img src='./img/rounded-icon-". $block['icon'] .".png' alt=''>";
-                  echo "<h4>". $block['title'] ."</h4>";
+                  echo "<h4 class='title-small'>". $block['title'] ."</h4>";
                   echo "<p>". $block['text'] ."</p>";
                   echo "</div>";
                 };
               ?>
-            </div>
           </div>
         </div>
       </div>
+    </div>
     </div>
   </section>
   <section class="clients">
@@ -202,7 +203,7 @@
       <div class="row">
         <div class="col">
           <h2 class="subtitle">clientes</h2>
-          <h1 class="title">Um<span> mercado mais completo, </span>sem complicações</h1>
+          <h1 class="title">Um<span> mercado mais completo, <br> </span>sem complicações</h1>
           <p>A infraestrutura de tecnologia da Celcoin leva a revolução do Embedded Finance para escalar o seu negócio.
             Seja qual for o segmento em que atua, agora é simples oferecer serviços bancários e financeiros aos seus
             clientes.</p>

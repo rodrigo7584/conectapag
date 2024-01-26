@@ -1,3 +1,24 @@
+.spotlight-blocks {
+  padding: 7rem 0;
+}
+.spotlight-blocks .blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.spotlight-blocks .block {
+  width: 100%;
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  filter: drop-shadow(0rem 0rem 1rem rgba(0, 0, 0, 0.1));
+}
+.spotlight-blocks .block img {
+  width: 2.5rem;
+}
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {
@@ -9,4 +30,4 @@
 @media (max-width: 576px) {
 }
 @media (max-width: 400px) {
-} 
+}

@@ -1,4 +1,29 @@
-
+.hero {
+  position: relative;
+  z-index: 2;
+  background-color: var(--color-blue-600);
+  border-bottom-left-radius: 8rem;
+  border-bottom-right-radius: 8rem;
+  padding: 5rem 0 20rem 0;
+}
+.hero .row {
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  align-items: center;
+}
+.hero .col-left p {
+  width: 70%;
+}
+.hero .col-right {
+  display: flex;
+  justify-content: center;
+}
+.hero .box-image {
+  width: 50rem;
+}
+.hero .box-image img {
+  max-width: 100%;
+}
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {
@@ -10,4 +35,4 @@
 @media (max-width: 576px) {
 }
 @media (max-width: 400px) {
-} 
+}

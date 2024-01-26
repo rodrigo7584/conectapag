@@ -1,3 +1,28 @@
+.solutions {
+  padding: 5rem 0;
+}
+.solutions .box-title {
+  width: 40rem;
+}
+.solutions .blocks {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
+}
+.solutions .block {
+  width: 100%;
+  background: var(--color-white);
+  padding: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  filter: drop-shadow(0rem 0rem 1rem rgba(0, 0, 0, 0.1));
+}
+.solutions .block img {
+  width: 5rem;
+}
+
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {
@@ -9,4 +34,4 @@
 @media (max-width: 576px) {
 }
 @media (max-width: 400px) {
-} 
+}
