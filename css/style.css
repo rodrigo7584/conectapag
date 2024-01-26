@@ -3,3 +3,15 @@
 @import url('./container.css');
 
 @import url('./header.css');
+
+@import url('./hero.css');
+@import url('./sub-hero.css');
+@import url('./spotlight-blocks.css');
+@import url('./spotlight.css');
+@import url('./solutions.css');
+@import url('./clients.css');
+@import url('./developers.css');
+@import url('./about.css');
+@import url('./sub-about.css');
+
+@import url('./footer.css');

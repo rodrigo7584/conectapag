@@ -27,12 +27,12 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <div class="box-img">
+          <div class="box-image">
             <img src="./img/cellphones.png" alt="" />
           </div>
           <div class="middle"></div>
-          <h3>
-            <span>Infraestrutura modularizada</span> com soluções para alavancar seu negócio
+          <h3 class="title-secondary">
+            <span>Infraestrutura modularizada</span> <br> com soluções para alavancar seu negócio
           </h3>
         </div>
       </div>
@@ -329,3 +329,4 @@
     </div>
   </section>
 </main>
+<?php include './footer.php'?>
