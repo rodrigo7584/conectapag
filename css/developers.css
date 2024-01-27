@@ -1,3 +1,28 @@
+.developers{
+  background: linear-gradient(90deg, var(--color-blue-400), var(--color-blue-100));
+  padding: 7rem 0;
+}
+.developers .row{
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 2rem));
+  gap: 2rem;
+  align-items: center;
+}
+.developers .col-left img{
+  width: 100%;
+}
+.developers .col-right h1,
+.developers .col-right h2,
+.developers .col-right p,
+.developers .col-right li{
+  color: var(--color-white);
+}
+.developers .col-right .dot-list{
+  margin-bottom: 3rem;
+}
+.developers .col-right .dot-list li::before{
+  background-color: var(--color-white);
+}
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {

@@ -3,7 +3,7 @@
     <div class="row">
       <div class="col-main">
         <a href="#">
-          <img src="./img/logo.png" alt="">
+          <img src="./img/logo.png" alt="" class="logo">
         </a>
         <p>
         Trabalhamos para que seu negócio ofereça serviços financeiros

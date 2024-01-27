@@ -1,3 +1,23 @@
+.sub-about .row {
+  margin-top: -10rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5rem;
+  filter: drop-shadow(0rem 1rem 0.7rem rgba(0,0,0,0.1));
+  width: 80%;
+  background-color: var(--color-white);
+  border-radius: 3rem;
+  padding: 3rem 4rem;
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 3rem));
+  gap: 3rem;
+  align-items: center;
+}
+.sub-about .col-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {

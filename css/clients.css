@@ -1,3 +1,78 @@
+.clients {
+  padding: 7rem 0;
+}
+.clients h2,
+.clients h1,
+.clients p {
+  text-align: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.clients h1 {
+  margin-bottom: 2rem;
+}
+.clients .slider {
+  height: 25rem;
+  margin: auto;
+  position: relative;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+.clients .slider::before,
+.clients .slider::after {
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 10rem;
+  background: linear-gradient(90deg, var(--color-white), transparent);
+  z-index: 3;
+}
+.clients .slider::after {
+  top: 0;
+  left: 0;
+}
+.clients .slider::before {
+  top: 0;
+  right: 0;
+  transform: rotate(180deg);
+}
+.clients .slide-track {
+  display: flex;
+  width: calc((25rem * 10) + (2rem * 9));
+  animation: slider 10s linear infinite;
+  gap: 2rem;
+}
+.clients .slide-track:hover {
+  cursor: pointer;
+  animation-play-state: paused;
+}
+@keyframes slider {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc((-25rem * 5) + (-1rem * 9)));
+  }
+}
+.clients .slide {
+  height: 12rem;
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  background: var(--color-white);
+  border-radius: 1rem;
+  filter: drop-shadow(0rem 0rem 1rem rgba(0, 0, 0, 0.2));
+}
+.clients .slide img {
+  width: auto;
+  max-height: 100%;
+  max-width: 100%;
+}
+
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {
