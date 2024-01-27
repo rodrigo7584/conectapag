@@ -5,3 +5,8 @@ function toggleMenu() {
   navMobile.classList.toggle('active')
 }
 btnMobile.addEventListener('click', toggleMenu)
+
+AOS.init({
+  duration: 800,
+  offset: 50
+})

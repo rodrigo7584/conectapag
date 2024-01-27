@@ -17,7 +17,19 @@
         </div>
         <div class="col-right">
           <div class="box-image">
-            <img src="./img/illustration-1.png" alt="" />
+            <img src="./img/green-block.svg" alt="" class="bgs1">
+            <img src="./img/green-block.svg" alt="" class="bgs2">
+            <img src="./img/green-block.svg" alt="" class="bgb1">
+            <img src="./img/blue-block.svg" alt="" class="bbm1">
+            <img src="./img/list.svg" alt="" class="list">
+            <img src="./img/cellphone.svg" alt="" class="cellphone">
+            <img src="./img/play.svg" alt="" class="play">
+            <img src="./img/send.svg" alt="" class="send">
+            <img src="./img/green-cloud.svg" alt="" class="cloud1">
+            <img src="./img/green-cloud-2.svg" alt="" class="cloud2">
+            <img src="./img/people-blue.svg" alt="" class="pb">
+            <img src="./img/people-green.svg" alt="" class="pg">
+            <img src="./img/blue-ballon.svg" alt="" class="ballon">
           </div>
         </div>
       </div>
@@ -28,7 +40,9 @@
       <div class="row">
         <div class="col">
           <div class="box-image">
-            <img src="./img/cellphones.png" alt="" />
+            <img src="./img/cellphones-1.png" alt="" class="cell-1" />
+            <img src="./img/cellphones-2.png" alt="" class="cell-2" />
+            <img src="./img/cellphones-3.png" alt="" class="cell-3" />
           </div>
           <div class="middle"></div>
           <h3 class="title-secondary">
@@ -98,7 +112,7 @@
           <?php
             foreach ($spotlightBlocks as $block) {
           ?>
-          <div class="block">
+          <div class="block" data-aos="flip-down">
             <img src="./img/icon-block.png" alt="" />
             <h4 class="title-small"><?php echo $block['title'];?></h4>
             <ul class="dot-list">
@@ -125,7 +139,7 @@
           <a href="#" class="btn btn-white">Conheça mais</a>
         </div>
         <div class="col-right">
-          <ul class="list-arrow">
+          <ul class="list-arrow" data-aos="zoom-in">
             <li>
               Integração completa a diferentes plataformas de sua empresa e suas
               características.
@@ -185,7 +199,7 @@
           <div class="blocks">
             <?php 
                 foreach ($solutionBlocks as $block){
-                  echo "<div class='block'>";
+                  echo "<div class='block' data-aos='flip-down'>";
                   echo "<img src='./img/rounded-icon-". $block['icon'] .".png' alt=''>";
                   echo "<h4 class='title-small'>". $block['title'] ."</h4>";
                   echo "<p>". $block['text'] ."</p>";
@@ -250,6 +264,9 @@
       <div class="row">
         <div class="col-left">
           <div class="box-image">
+            <div class="box">
+              <span>Alert !!!</span>
+            </div>
             <img src="./img/prompt.png" alt="">
           </div>
         </div>
@@ -299,7 +316,7 @@
           <div class="blocks">
             <?php 
               foreach ($aboutBlocks as $block){
-                echo "<div class='block'>";
+                echo "<div class='block'  data-aos='flip-down'>";
                 echo "<img src='./img/rounded-icon-". $block['icon'] .".png' alt=''>";
                 echo "<h4>". $block['title'] ."</h4>";
                 echo "<p>". $block['text'] ."</p>";
@@ -323,7 +340,8 @@
         </div>
         <div class="col-right">
           <div class="box-image">
-            <img src="./img/illustration-computer.png" alt="">
+            <img src="./img/illustration-computer-1.png" alt="" class="computer">
+            <img src="./img/illustration-computer-2.png" alt="" class="cellphone">
           </div>
         </div>
       </div>

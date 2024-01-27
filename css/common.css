@@ -16,9 +16,12 @@
   --color-gray-400: #6b6b6b;
   --color-gray-500: #a2a9b0;
 
-  --svg-blue-500: brightness(0) saturate(100%)invert(71%) sepia(55%) saturate(2758%) hue-rotate(161deg) brightness(104%) contrast(87%);
-  --svg-blue-400: brightness(0) saturate(100%)invert(61%) sepia(69%) saturate(2230%) hue-rotate(156deg) brightness(96%) contrast(87%);
-  --svg-blue-200: brightness(0) saturate(100%)invert(64%) sepia(74%) saturate(1733%) hue-rotate(124deg) brightness(96%) contrast(98%);
+  --svg-blue-500: brightness(0) saturate(100%) invert(71%) sepia(55%) saturate(2758%)
+    hue-rotate(161deg) brightness(104%) contrast(87%);
+  --svg-blue-400: brightness(0) saturate(100%) invert(61%) sepia(69%) saturate(2230%)
+    hue-rotate(156deg) brightness(96%) contrast(87%);
+  --svg-blue-200: brightness(0) saturate(100%) invert(64%) sepia(74%) saturate(1733%)
+    hue-rotate(124deg) brightness(96%) contrast(98%);
 
   --thin: 100;
   --xlight: 200;
@@ -122,58 +125,12 @@ p {
   top: 0.2rem;
 }
 
+/* [data-aos='new-animation'] {
+  letter-spacing: -0.5em;
+  opacity: 0;
+}
 
-
-footer{
-  background-color: var(--color-gray-100);
-  padding: 5rem 0;
-}
-footer .row{
-  display: flex;
-  flex-wrap: wrap;
-  gap: 7rem;
-}
-footer .col-main{
-  width: 35rem;
-}
-footer .col-main .logo{
-  height: 3rem;
-  margin-bottom: 3rem;
-}
-footer .col-main p{
-  text-align: justify;
-}
-footer .box-social{
-  display: flex;
-  align-items: center;
-  gap: 1.5rem;
-}
-footer .box-social img{
-  width: 2.5rem;
-  filter: var(--svg-blue-400);
-}
-footer .box-social img:hover{
-  filter: var(--svg-blue-200);
-}
-footer .col{
- width: auto;
- max-width: 32rem;
-}
-footer h5{
-  font-weight: var(--sbold);
-  color: var(--color-white);
-  font-size: 1.4rem;
-  margin-bottom: 2rem;
-}
-footer .footer-menu{
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-}
-footer .footer-menu li a{
-  color: var(--color-gray-400);
-  font-weight: var(--medium);
-}
-footer .footer-menu li a:hover{
-  color: var(--color-blue-500);
-}
+[data-aos='new-animation'].aos-animate {
+  letter-spacing: 0;
+  opacity: 1;
+} */

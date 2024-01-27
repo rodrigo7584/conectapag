@@ -22,7 +22,7 @@
 </head>
 
 <body>
-  <header class="menu">
+  <header class="menu" data-aos="fade-down">
     <div class="container">
       <div class="row">
         <a href="#home" class="logo">
