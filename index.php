@@ -17,19 +17,19 @@
         </div>
         <div class="col-right">
           <div class="box-image">
-            <img src="./img/green-block.svg" alt="" class="bgs1">
-            <img src="./img/green-block.svg" alt="" class="bgs2">
-            <img src="./img/green-block.svg" alt="" class="bgb1">
-            <img src="./img/blue-block.svg" alt="" class="bbm1">
             <img src="./img/list.svg" alt="" class="list">
-            <img src="./img/cellphone.svg" alt="" class="cellphone">
             <img src="./img/play.svg" alt="" class="play">
             <img src="./img/send.svg" alt="" class="send">
-            <img src="./img/green-cloud.svg" alt="" class="cloud1">
-            <img src="./img/green-cloud-2.svg" alt="" class="cloud2">
             <img src="./img/people-blue.svg" alt="" class="pb">
             <img src="./img/people-green.svg" alt="" class="pg">
             <img src="./img/blue-ballon.svg" alt="" class="ballon">
+            <img src="./img/green-cloud-2.svg" alt="" class="cloud2">
+            <img src="./img/green-cloud.svg" alt="" class="cloud1">
+            <img src="./img/green-block.svg" alt="" class="bgb1">
+            <img src="./img/blue-block.svg" alt="" class="bbm1">
+            <img src="./img/green-block.svg" alt="" class="bgs2">
+            <img src="./img/green-block.svg" alt="" class="bgs1">
+            <img src="./img/cellphone.svg" alt="" class="cellphone">
           </div>
         </div>
       </div>

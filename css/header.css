@@ -34,7 +34,7 @@ header.menu nav li a img {
 header.menu .btn-mobile-menu {
   display: none;
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   header.menu .btn-mobile-menu {
     background: none;
     border-radius: 0.5rem;

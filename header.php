@@ -22,10 +22,10 @@
 </head>
 
 <body>
-  <header class="menu" data-aos="fade-down">
+  <header class="menu">
     <div class="container">
       <div class="row">
-        <a href="#home" class="logo">
+        <a href="#home" class="logo" data-aos="fade-down">
           <img src="./img/logo.png" alt="" />
         </a>
         <nav>
@@ -34,7 +34,7 @@
             <div></div>
             <div></div>
           </button>
-          <ul>
+          <ul data-aos="fade-down">
             <li><a class="menu-item" href="#solutions">Soluções</a></li>
             <li><a class="menu-item" href="#developers">Developers</a></li>
             <li><a class="menu-item" href="#about">Sobre nós</a></li>

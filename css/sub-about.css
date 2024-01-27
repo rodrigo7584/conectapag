@@ -4,7 +4,7 @@
   margin-right: auto;
   margin-bottom: 5rem;
   filter: drop-shadow(0rem 1rem 0.7rem rgba(0, 0, 0, 0.1));
-  width: 80%;
+  width: 100rem;
   background-color: var(--color-white);
   border-radius: 3rem;
   padding: 3rem 4rem;
@@ -65,12 +65,22 @@
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {
+  .sub-about .row {
+    width: 100%;
+  }
 }
 @media (max-width: 992px) {
+  .sub-about .row {
+    grid-template-columns: 100%;
+    width: 490px;
+  }
 }
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
+  .sub-about .row {
+    width: 100%;
+  }
 }
 @media (max-width: 400px) {
 }

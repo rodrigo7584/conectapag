@@ -6,6 +6,9 @@ body {
   max-width: 1400px;
   margin: 0 auto;
 }
+.container .row {
+  padding: 0 1rem;
+}
 .container-fluid {
   width: 100%;
   max-width: 100%;
