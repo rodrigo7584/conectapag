@@ -124,6 +124,21 @@ p {
   left: -1.5rem;
   top: 0.2rem;
 }
+@media (max-width: 1400px) {
+}
+@media (max-width: 1200px) {
+}
+@media (max-width: 992px) {
+}
+@media (max-width: 768px) {
+}
+@media (max-width: 576px) {
+  .title,.title-secondary{
+    font-size: 2.8rem;
+  }
+}
+@media (max-width: 400px) {
+}
 
 /* [data-aos='new-animation'] {
   letter-spacing: -0.5em;

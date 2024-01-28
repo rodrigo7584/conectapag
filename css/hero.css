@@ -576,6 +576,9 @@
 @media (max-width: 1400px) {
 }
 @media (max-width: 1200px) {
+  .hero .row {
+    grid-template-columns: 1fr auto;
+  }
 }
 @media (max-width: 992px) {
   .hero .row {
@@ -586,8 +589,15 @@
 @media (max-width: 768px) {
 }
 @media (max-width: 576px) {
+  .hero .row {
+    gap: 2rem;
+  }
   .hero .col-left p {
     width: 100%;
+  }
+  .hero .box-image {
+    width: 32rem;
+    height: 21.6rem;
   }
   .hero .box-image .cellphone {
     left: 6px;
@@ -615,7 +625,7 @@
     width: 21px;
   }
   .hero .box-image .cloud1 {
-    bottom: 204px;
+    bottom: 90px;
     width: 44px;
   }
   .hero .box-image .cloud2 {
@@ -629,12 +639,12 @@
     width: 46px;
   }
   .hero .box-image .pg {
-    bottom: 161px;
+    bottom: 40px;
     right: 90px;
     width: 40px;
   }
   .hero .box-image .pb {
-    bottom: 174px;
+    bottom: 55px;
     right: 14px;
     width: 59px;
   }

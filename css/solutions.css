@@ -35,6 +35,12 @@
   }
 }
 @media (max-width: 576px) {
+  .solutions .box-title {
+    width: 100%;
+}
+.solutions .blocks {
+  grid-template-columns: 100%;
+}
 }
 @media (max-width: 400px) {
 }

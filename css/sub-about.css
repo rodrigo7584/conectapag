@@ -81,6 +81,23 @@
   .sub-about .row {
     width: 100%;
   }
+  .sub-about .box-image {
+    width: 25rem;
+    height: 21rem;
+  }
+
+  .sub-about .box-image .computer {
+    width: 220px;
+    z-index: 1;
+    bottom: 0;
+    left: -10px;
+  }
+  .sub-about .box-image .cellphone {
+    z-index: 2;
+    top: 0;
+    right: 30px;
+    width: 51px;
+  }
 }
 @media (max-width: 400px) {
 }
