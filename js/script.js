@@ -6,6 +6,9 @@ function toggleMenu() {
 }
 btnMobile.addEventListener('click', toggleMenu)
 
+const 
+
+
 AOS.init({
   duration: 800,
   offset: 50

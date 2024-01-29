@@ -1,3 +1,24 @@
+<?php 
+session_start();
+$default_language = 'pt';
+
+if (isset($_GET['lang']) && !empty($_GET['lang'])) {
+    $_SESSION['lang'] = $_GET['lang'];
+    
+} elseif (!isset($_SESSION['lang'])) {
+    $_SESSION['lang'] = $default_language;
+}
+
+$lang_file = 'lang/' . $_SESSION['lang'] . '/text.php';
+if (file_exists($lang_file)) {
+    $lang = include($lang_file);
+} else {
+    $lang = include('lang/' . $default_language . '/text.php');
+}
+
+$current_page = $_SERVER['REQUEST_URI'];
+$is_login_page = (strpos($current_page, 'login') !== false);
+?>
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -25,9 +46,16 @@
   <header class="menu">
     <div class="container">
       <div class="row">
-        <a href="#home" class="logo" data-aos="fade-down">
+        <a href="/" class="logo" data-aos="fade-down">
           <img src="./img/logo.png" alt="" />
         </a>
+        <?php echo $menu_to_display = $is_login_page ?  
+        '<nav>
+          <a href="#" class="btn btn-help">
+            <img src="./img/icon-question.png" alt="">
+            Ajuda
+          </a>
+        </nav>' :  '
         <nav>
           <button class="btn btn-mobile-menu">
             <div></div>
@@ -40,10 +68,11 @@
             <li><a class="menu-item" href="#about">Sobre nós</a></li>
             <li><a class="menu-item" href="#get-in-touch">Contato</a></li>
             <li>
-              <a href="#" class="btn btn-gradient">Login</a>
+              <a href="/login.php" class="btn btn-gradient">Login</a>
             </li>
           </ul>
         </nav>
+        ';?>
       </div>
     </div>
   </header>
