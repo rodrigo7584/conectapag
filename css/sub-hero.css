@@ -88,6 +88,7 @@
   }
   .sub-hero .box-image {
     margin-bottom: 0;
+    order: 3;
   }
   .sub-hero .col {
     display: grid;
@@ -99,6 +100,7 @@
   .sub-hero .middle {
     height: 0.3rem;
     width: 100%;
+    order: 2;
   }
   .sub-hero .middle::before,
   .sub-hero .middle::after {
@@ -117,6 +119,9 @@
   }
 }
 @media (max-width: 576px) {
+  .sub-hero .row {
+    margin: -20rem auto 0 auto;
+  }
 }
 @media (max-width: 400px) {
 }

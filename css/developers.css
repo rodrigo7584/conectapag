@@ -54,7 +54,10 @@
   .developers .box {
     height: 5rem;
     width: 15rem;
+    top: calc(50% - 2.5rem);
+    left: calc(50% - 7.5rem);
   }
+  
 }
 @media (max-width: 768px) {
   .developers .row {
