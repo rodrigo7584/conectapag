@@ -38,7 +38,8 @@
 }
 a,
 p,
-button {
+button,
+label {
   font-weight: var(--regular);
   font-size: 1.5rem;
 }
@@ -102,6 +103,19 @@ p {
   background: var(--color-white);
   color: var(--color-blue-300);
 }
+.link-blue{
+  color: var(--color-blue-300);
+}
+.link-blue:hover{
+  color: var(--color-blue-100);
+}
+input{
+  border: 0.1rem solid var(--color-gray-500);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  color: var(--color-gray-100);
+}
 .dot-list {
   margin-left: 1.5rem;
   display: flex;
@@ -139,13 +153,3 @@ p {
 }
 @media (max-width: 400px) {
 }
-
-/* [data-aos='new-animation'] {
-  letter-spacing: -0.5em;
-  opacity: 0;
-}
-
-[data-aos='new-animation'].aos-animate {
-  letter-spacing: 0;
-  opacity: 1;
-} */

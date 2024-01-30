@@ -1,11 +1,5 @@
 <?php include './header.php'?>
-<div class="btn-language">
-  <ul>
-    <li class="language-selected"></li>
-    <li>Português</li>
-    <li>English</li>
-  </ul>
-</div>
+<?php include './langButton.php'?>
 <main>
   <section class="login">
     <div class="container">
@@ -14,21 +8,20 @@
           <img src="./img/login.png" alt="">
         </div>
         <div class="col-right">
-          <h1 class="title">Acesse sua conta</h1>
+          <h1 class="title"><?php echo $lang['title_login']; ?></h1>
           <form action="#">
-            <input type="text" placeholder="Digite aqui seu E-mail">
-            <input type="text" placeholder="Digite aqui sua senha">
-            <a href="#">Esqueci minha senha</a>
-            <button type="submit" class="btn btn-gradient">Login</button>
+            <input type="text" placeholder="<?php echo $lang['placeholder_email']; ?>">
+            <input type="text" placeholder="<?php echo $lang['placeholder_password']; ?>">
+            <a href="#" class="link-blue"><?php echo $lang['forget_password']; ?></a>
+            <button type="submit" class="btn btn-gradient"><?php echo $lang['btn_login']; ?></button>
             <div class="save-login">
               <input type="checkbox" id="isLogged">
-              <label for="isLogged">Manter logado</label>
+              <label for="isLogged"><?php echo $lang['isLogged']; ?></label>
             </div>
           </form>
         </div>
       </div>
     </div>
   </section>
-  <?php echo $lang['welcome']; ?>
 </main>
 <?php include './footer.php'?>

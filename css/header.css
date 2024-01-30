@@ -28,6 +28,12 @@ header.menu nav li a.btn {
   border-radius: 0.5rem;
   padding: 0.5rem 3rem;
 }
+header .btn-help{
+  border: 0.1rem solid var(--color-white);
+  padding: 0.5rem 3rem ;
+  gap: 0.5rem;
+  align-items: center;
+}
 header.menu nav li a img {
   height: 2.5rem;
 }
@@ -85,4 +91,13 @@ header.menu .btn-mobile-menu {
   header.menu nav li {
     padding: 1rem 2rem;
   }
+}
+
+@media (max-width: 576px) {
+header .btn-help{
+  border: 0.1rem solid var(--color-white);
+  padding: 0.5rem 01rem ;
+  gap: 0.5rem;
+  align-items: center;
+}
 }
